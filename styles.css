@@ -1,0 +1,48 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    
+}
+
+form{
+    padding: 20px;
+    margin: 100px 0px 0px 0px;
+    background-image: linear-gradient(purple, blue);
+    width: fit-content;
+
+}
+
+#title{
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+    margin: 20px;
+}
+
+#counter{
+    font-size: 48px;
+    font-weight: 700;
+    font: 600;
+    color: white;
+
+}
+
+button{
+    margin: 8px;
+    padding: 8px 16px;
+    background-color: red;
+    color: white;
+    border: 1px red solid;
+    border-radius: 2px;
+}
+
+button:hover{
+    background-color: rgb(250, 206, 206);
+    color: blue;
+    border: 1px blue solid;
+}
