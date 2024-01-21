@@ -9,3 +9,15 @@ function increment() {
 }
 
 increment();
+
+
+let saved = document.getElementById("entry");
+
+function save() {
+    newCount = count + " - "
+    saved.innerText = saved.textContent + newCount;
+    countNumber.textContent=0;
+    count = 0;
+}
+
+save();

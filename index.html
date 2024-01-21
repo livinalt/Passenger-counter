@@ -8,14 +8,24 @@
 </head>
 <body>
 
-    <form action="">
-        <label for="" id="title">Passenger Counter</label>
+    <form>
+        <label id="title">Passenger Counter</label>
         <br>
-        <label for="" id="counter">0</label>
+        <label id="counter">0</label>
         <br>
-        <button type="counter" id="countID" onclick="increment()">Increment</button>
+
+        <div id="btns">            
+            <button id="countID" onclick="increment()">Increment</button>
+            <br>
+            <button id="saveBtn" onclick="save()">Save</button>
+        </div>
+
+        <br>
+        <label for="" id="savedCount">Previous Count:<span id="entry"></span> </label>
 
     </form>
+
+    <script src="index.js"></script>
     
 </body>
 </html>

@@ -1,12 +1,11 @@
 body{
+    box-sizing: border-box;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     text-align: center;
     display: flex;
     justify-content: center;
-    align-content: center;
-
-    
+    align-content: center;    
 }
 
 form{
@@ -14,7 +13,7 @@ form{
     margin: 100px 0px 0px 0px;
     background-image: linear-gradient(purple, blue);
     width: fit-content;
-
+    box-shadow: blue;
 }
 
 #title{
@@ -29,10 +28,15 @@ form{
     font-weight: 700;
     font: 600;
     color: white;
-
 }
 
-button{
+#btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#countID{
     margin: 8px;
     padding: 8px 16px;
     background-color: red;
@@ -41,8 +45,28 @@ button{
     border-radius: 2px;
 }
 
-button:hover{
+#countID:hover{
     background-color: rgb(250, 206, 206);
     color: blue;
     border: 1px blue solid;
+}
+
+#saveBtn{
+    margin: 8px;
+    padding: 8px 24px;
+    background-color: white;
+    color: blue;
+    border: 1px white solid;
+    border-radius: 2px;
+}
+
+#saveBtn:hover{
+    background-color: rgb(250, 206, 206);
+    color: blue;
+    border: 1px blue solid;
+}
+
+#savedCount{
+    color: white;
+    font-size: 12px;
 }
